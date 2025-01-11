@@ -52,6 +52,35 @@
 
 
 
+<h>Video 4</h1>
+  
+  <!-- Video element -->
+  <video id="myVideo_4" width="600" controls>
+    <source src="333608505539035140.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo_4()">Play</button>
+  <button onclick="pauseVideo_4()">Pause</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
@@ -62,7 +91,14 @@
 
 const video_2 = document.getElementById('myVideo_2');
 const video_3 = document.getElementById('myVideo_3');
+const video_4 = document.getElementById('myVideo_4');
 
+
+
+
+
+
+    
     
     // Function to play the video
     function playVideo() {
@@ -94,6 +130,23 @@ const video_3 = document.getElementById('myVideo_3');
       video_3.pause();
     }
 
+// Function to play the video
+    function playVideo_3() {
+      video_4.play();
+    }
+
+    // Function to pause the video
+    function pauseVideo_3() {
+      video_4.pause();
+    }
+
+
+
+
+
+
+
+    
     
     
     
