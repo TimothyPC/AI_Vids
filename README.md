@@ -146,6 +146,7 @@
   
   
   <script>
+    
     // Get the video element
     const video = document.getElementById('myVideo');
 
@@ -225,15 +226,28 @@ const video_7 = document.getElementById('myVideo_7');
 
 // Function to play the video
     function playVideo_7() {
-      playBoth();
-      audio.play();
+      video_7.play();
     }
 
     // Function to pause the video
     function pauseVideo_7() {
       video_7.pause();
-      audio.pause();
     }
+
+video_7.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+    }
+  });
+
+  // Stop audio when the video ends
+  video_7.addEventListener("ended", () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+
+video_7.addEventListener("play", () => audio.play());
+    video_7.addEventListener("pause", () => audio.pause());
     
 
 function playBoth() {
