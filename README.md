@@ -8,10 +8,11 @@
 </head>
 <body>
   <h1>Tornado</h1>
-
+  
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
     <source src="333923407231242244.mp4" type="video/mp4">
+    
     Your browser does not support the video tag.
   </video>
 
@@ -19,43 +20,33 @@
   <br>
   <button onclick="playVideo()">Play</button>
   <button onclick="pauseVideo()">Pause</button>
+
+
+<h1>Beyonce and Macaulay Culkin </h1>
   
-  <script>
-    // Get the video element
-    const video = document.getElementById('myVideo');
-
-    // Function to play the video
-    function playVideo() {
-      video.play();
-    }
-
-    // Function to pause the video
-    function pauseVideo() {
-      video.pause();
-    }
-    
-  </script>
-</body>
-
-
-<body>
-  <h1>Beyonce and Macaulay Culkin </h1>
-
   <!-- Video element -->
-  <video id="myVideo" width="600" controls>
+  <video id="myVideo_2" width="600" controls>
     <source src="333735085892505603.mp4" type="video/mp4">
+    
     Your browser does not support the video tag.
   </video>
 
   <!-- Buttons to control the video -->
   <br>
-  <button onclick="playVideo()">Play</button>
-  <button onclick="pauseVideo()">Pause</button>
+  <button onclick="playVideo_2()">Play</button>
+  <button onclick="pauseVideo_2()">Pause</button>
+
+
+
+
+
+  
   
   <script>
     // Get the video element
     const video = document.getElementById('myVideo');
 
+const video_2 = document.getElementById('myVideo_2');
     // Function to play the video
     function playVideo() {
       video.play();
@@ -65,19 +56,19 @@
     function pauseVideo() {
       video.pause();
     }
+
+    // Function to play the video
+    function playVideo_2() {
+      video_2.play();
+    }
+
+    // Function to pause the video
+    function pauseVideo_2() {
+      video_2.pause();
+    }
+    
     
   </script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
