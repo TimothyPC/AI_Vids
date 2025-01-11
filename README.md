@@ -52,7 +52,7 @@
 
 
 
-<h>Video 4</h1>
+<h1>Beyonce Smokes</h1>
   
   <!-- Video element -->
   <video id="myVideo_4" width="600" controls>
@@ -68,6 +68,21 @@
 
 
 
+  <h1>Beyonce and Blue Earrings</h1>
+  
+  <!-- Video element -->
+  <video id="myVideo_5" width="600" controls>
+    <source src="333606574510817289.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo_5()">Play</button>
+  <button onclick="pauseVideo_5()">Pause</button>
+  
+  
 
 
 
@@ -93,7 +108,7 @@ const video_2 = document.getElementById('myVideo_2');
 const video_3 = document.getElementById('myVideo_3');
 const video_4 = document.getElementById('myVideo_4');
 
-
+const video_5 = document.getElementById('myVideo_5');
 
 
 
@@ -131,16 +146,24 @@ const video_4 = document.getElementById('myVideo_4');
     }
 
 // Function to play the video
-    function playVideo_3() {
+    function playVideo_4() {
       video_4.play();
     }
 
     // Function to pause the video
-    function pauseVideo_3() {
+    function pauseVideo_4() {
       video_4.pause();
     }
 
+// Function to play the video
+    function playVideo_5() {
+      video_5.play();
+    }
 
+    // Function to pause the video
+    function pauseVideo_5() {
+      video_5.pause();
+    }
 
 
 
