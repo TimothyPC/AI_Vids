@@ -243,7 +243,10 @@ function playBoth() {
     // Synchronize audio and video
     video_7.addEventListener("play", () => audio.play());
     video_7.addEventListener("pause", () => audio.pause());
-    
+
+video.addEventListener("timeupdate", () => {audio.currentTime = video.currentTime;
+      });
+  
     video_7.play();
   }
 
