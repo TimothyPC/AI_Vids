@@ -30,10 +30,7 @@ var numSelect = 1;
 </head>
 <body>
   <h1 id="heading"> </h1>
-  <script>
-  document.getElementById("heading").textContent = 'Tornado';
-</script>
-  
+
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
     
@@ -92,12 +89,7 @@ video.addEventListener("play", () => audio.play());
 
     // Function to play the video
     function prevVideo() {
- 
-      if (numSelect > 1) {
-         numSelect = numSelect - 1;
-      }
-        
-      if (numSelect == 1) {
+
          <script>
   document.getElementById("heading").textContent = 'Tornado_2';
 </script>
@@ -106,9 +98,9 @@ video.addEventListener("play", () => audio.play());
     
     <source src="333923407231242244.mp4" type="video/mp4">
         
-      }
+      video.play();
 
-    }
+  }
 
     // Function to pause the video
     function nextVideo() {
