@@ -29,9 +29,68 @@
   <script>
     // Array of video sources
     const videos = [
-      { src: "333923407231242244.mp4", title: "Video 1" },
-      { src: "333735085892505603.mp4", title: "Video 2" },
-      { src: "333628961587437568.mp4", title: "Video 3" },
+      { src: "333923407231242244.mp4", title: "Tornado" },
+      { src: "333735085892505603.mp4", title: "Beyonce and Macaulay Culkin" },
+      { src: "333628961587437568.mp4", title: "Beyonce snd Michael Jackson" },
+     
+{ src: "333608505539035140.mp4", title: "Beyonce Smokes" },
+      
+{ src: "333606574510817289.mp4", title: "Beyonce and Blue Earrings" },
+      
+{ src: "333594070342651905.mp4", title: "Beyonce and Mud" },
+      
+{ src: "332834079352217606.mp4", title: "Teddy Bears Rock" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+
+{ src: "video1.mp4", title: "Video 1" },
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+     
+{ src: "video1.mp4", title: "Video 1" },
+
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+      
+     
+{ src: "video1.mp4", title: "Video 1" },
+
+{ src: "video1.mp4", title: "Video 1" },
+
+{ src: "video1.mp4", title: "Video 1" },
+      
+{ src: "video1.mp4", title: "Video 1" },
+
+
+     { src: "video1.mp4", title: "Video 1" },
+      
+     
+
+
+     
     ];
 
     // Reference to the video gallery container
