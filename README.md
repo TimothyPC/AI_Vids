@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   
-  <title
-    color: white;
-    >Tim&apos;s AI Video Creations</title>
+  <title>Tim&apos;s AI Video Creations</title>
 <br>
   
 <style>
