@@ -36,6 +36,20 @@
   <button onclick="playVideo_2()">Play</button>
   <button onclick="pauseVideo_2()">Pause</button>
 
+<h1>Beyonce and Michael Jackson</h1>
+  
+  <!-- Video element -->
+  <video id="myVideo_3" width="600" controls>
+    <source src="333628961587437568.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo_3()">Play</button>
+  <button onclick="pauseVideo_3()">Pause</button>
+
 
 
 
@@ -47,6 +61,9 @@
     const video = document.getElementById('myVideo');
 
 const video_2 = document.getElementById('myVideo_2');
+const video_3 = document.getElementById('myVideo_3');
+
+    
     // Function to play the video
     function playVideo() {
       video.play();
@@ -66,6 +83,18 @@ const video_2 = document.getElementById('myVideo_2');
     function pauseVideo_2() {
       video_2.pause();
     }
+
+// Function to play the video
+    function playVideo_3() {
+      video_3.play();
+    }
+
+    // Function to pause the video
+    function pauseVideo_3() {
+      video_3.pause();
+    }
+
+    
     
     
   </script>
