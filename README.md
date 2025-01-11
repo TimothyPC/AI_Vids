@@ -29,7 +29,7 @@ var numSelect = 1;
   
 </head>
 <body>
-  <h1>strHeading</h1>
+  <h1 id="heading"> </h1>
   
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
