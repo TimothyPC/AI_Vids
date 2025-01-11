@@ -5,8 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<h1 id="heading"> </h1>
+<script>
+  document.getElementById("heading").textContent = 'Tornado';
+</script>
+
 var numSelect = 1;
-var strHeading = 'Tornado';
+
   
 <br>
   
@@ -90,7 +95,9 @@ video.addEventListener("play", () => audio.play());
       }
         
       if (numSelect == 1) {
-         strHeading = 'Tornado';
+         <script>
+  document.getElementById("heading").textContent = 'Tornado_2';
+</script>
 
       <audio id="my-audio"       src="tornado_sound_1.mp3"></audio>
     
