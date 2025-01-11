@@ -244,8 +244,10 @@ function playBoth() {
     video_7.addEventListener("play", () => audio.play());
     video_7.addEventListener("pause", () => audio.pause());
 
-video.addEventListener("timeupdate", () => {audio.currentTime = video.currentTime;
-      });
+video_7.addEventListener("ended", () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
   
     video_7.play();
   }
