@@ -225,12 +225,14 @@ const video_7 = document.getElementById('myVideo_7');
 
 // Function to play the video
     function playVideo_7() {
-      playBoth();
+      video_7.play();
+      audio.play();
     }
 
     // Function to pause the video
     function pauseVideo_7() {
       video_7.pause();
+      audio.pause();
     }
     
 
