@@ -24,6 +24,8 @@
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
     <source src="333923407231242244.mp4" type="video/mp4">
+
+    <audio id="my-audio" src="tornado_sound_1.mp3"></audio>
     
     Your browser does not support the video tag.
   </video>
@@ -118,7 +120,7 @@
   <!-- Video element -->
   <video id="myVideo_7" width="600" controls>
 
-<audio id="my-audio" src="The_Street_Beat_3.mp3"></audio>
+<audio id="my-audio_7" src="The_Street_Beat_3.mp3"></audio>
 
     
     <source src="332834079352217606.mp4" type="video/mp4">
@@ -160,7 +162,9 @@ const video_6 = document.getElementById('myVideo_6');
 
 const video_7 = document.getElementById('myVideo_7');
 
-    const audio = document.getElementById("my-audio");
+const audio = document.getElementById("my-audio");
+    
+    const audio_7 = document.getElementById("my-audio_7");
 
     
     
@@ -173,6 +177,25 @@ const video_7 = document.getElementById('myVideo_7');
     function pauseVideo() {
       video.pause();
     }
+
+video.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+    }
+  });
+
+  // Stop audio when the video ends
+  video.addEventListener("ended", () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+
+video.addEventListener("play", () => audio.play());
+    video.addEventListener("pause", () => audio.pause()
+
+
+
+    
 
     // Function to play the video
     function playVideo_2() {
@@ -235,37 +258,20 @@ const video_7 = document.getElementById('myVideo_7');
     }
 
 video_7.addEventListener("click", () => {
-    if (audio.paused) {
-      audio.play();
+    if (audio_7.paused) {
+      audio_7.play();
     }
   });
 
   // Stop audio when the video ends
   video_7.addEventListener("ended", () => {
-    audio.pause();
-    audio.currentTime = 0;
+    audio_7.pause();
+    audio_7.currentTime = 0;
   });
 
-video_7.addEventListener("play", () => audio.play());
-    video_7.addEventListener("pause", () => audio.pause());
+video_7.addEventListener("play", () => audio_7.play());
+    video_7.addEventListener("pause", () => audio_7.pause());
     
-
-function playBoth() {
-    
-    const audio = document.getElementById("my-audio");
-
-    // Synchronize audio and video
-    video_7.addEventListener("play", () => audio.play());
-    video_7.addEventListener("pause", () => audio.pause());
-
-video_7.addEventListener("ended", () => {
-    audio.pause();
-    audio.currentTime = 0;
-  });
-  
-    video_7.play();
-  }
-
 
 
     
