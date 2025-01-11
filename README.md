@@ -101,6 +101,19 @@
   
 
 
+  <h1>Teddy Bears Rock</h1>
+  
+  <!-- Video element -->
+  <video id="myVideo_7" width="600" controls>
+    <source src="332834079352217606.mp4" type="video/mp4">
+    
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo_7()">Play</button>
+  <button onclick="pauseVideo_7()">Pause</button>
 
 
 
@@ -128,6 +141,8 @@ const video_5 = document.getElementById('myVideo_5');
 
 const video_6 = document.getElementById('myVideo_6');
 
+const video_7 = document.getElementById('myVideo_7');
+    
 
     
     
@@ -191,7 +206,15 @@ const video_6 = document.getElementById('myVideo_6');
       video_6.pause();
     }
 
+// Function to play the video
+    function playVideo_7() {
+      video_6.play();
+    }
 
+    // Function to pause the video
+    function pauseVideo_7() {
+      video_6.pause();
+    }
     
 
 
