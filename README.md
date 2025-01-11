@@ -1,10 +1,22 @@
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Videos</title>
+<style>
+    body {
+      background-color: white;
+      color: black;
+    }
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  
 </head>
 <body>
   <h1>Tornado</h1>
