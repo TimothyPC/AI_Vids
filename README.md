@@ -193,7 +193,7 @@ video.addEventListener("click", () => {
   });
 
 video.addEventListener("play", () => audio.play());
-    video.addEventListener("pause", () => audio.pause()
+    video.addEventListener("pause", () => audio.pause());
 
 
 
