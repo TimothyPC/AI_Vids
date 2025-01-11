@@ -23,7 +23,7 @@
 
 <h1>Beyonce and Macaulay Culkin   </h1>
   <!-- Video element 2 -->
-  <video_2 id="myVideo" width="600" controls>
+  <video id="myVideo_2" width="600" controls>
     <source src="333735085892505603.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -58,12 +58,12 @@
 
     // Function to play the video
     function playVideo_2() {
-      video_2.play();
+      video.play();
     }
 
     // Function to pause the video
     function pauseVideo_2() {
-      video_2.pause();
+      video.pause();
     }
 
 
