@@ -23,9 +23,12 @@
   
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
+    
+<audio id="my-audio" src="tornado_sound_1.mp3"></audio>
+    
     <source src="333923407231242244.mp4" type="video/mp4">
 
-    <audio id="my-audio" src="tornado_sound_1.mp3"></audio>
+    
     
     Your browser does not support the video tag.
   </video>
@@ -122,7 +125,6 @@
 
 <audio id="my-audio_7" src="The_Street_Beat_3.mp3"></audio>
 
-    
     <source src="332834079352217606.mp4" type="video/mp4">
     
     Your browser does not support the video tag.
