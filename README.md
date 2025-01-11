@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<h1 id="heading"> </h1>
+<h1  color: white;  id="heading"> </h1>
 <script>
   document.getElementById("heading").textContent = 'Tornado';
 </script>
@@ -29,7 +29,7 @@ var numSelect = 1;
   
 </head>
 <body>
-  <h1 id="heading"> </h1>
+  <h1 color: white;   id="heading"> </h1>
   
   <!-- Video element -->
   <video id="myVideo" width="600" controls>
