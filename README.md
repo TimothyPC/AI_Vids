@@ -225,7 +225,7 @@ const video_7 = document.getElementById('myVideo_7');
 
 // Function to play the video
     function playVideo_7() {
-      video_7.play();
+      playBoth();
       audio.play();
     }
 
@@ -243,12 +243,7 @@ function playBoth() {
     // Synchronize audio and video
     video_7.addEventListener("play", () => audio.play());
     video_7.addEventListener("pause", () => audio.pause());
-    video_7.addEventListener("timeupdate", () => {
-      if (Math.abs(video.currentTime - audio.currentTime) > 0.1) {
-        audio.currentTime = video_7.currentTime;
-      }
-    });
-
+    
     video_7.play();
   }
 
