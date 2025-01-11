@@ -7,12 +7,12 @@
   <title>AI Videos</title>
 <style>
     body {
-      background-color: white;
-      color: black;
-    }
-    .dark-mode {
       background-color: black;
       color: white;
+    }
+    .dark-mode {
+      background-color: white;
+      color: black;
     }
   </style>
 
