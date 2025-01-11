@@ -15,22 +15,32 @@
     Your browser does not support the video tag.
   </video>
 
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo()">Play</button>
+  <button onclick="pauseVideo()">Pause</button>
+
+
+
   <!-- Video element 2 -->
   <video id="myVideo" width="600" controls>
     <source src="333735085892505603.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
+  <!-- Buttons to control the video -->
+  <br>
+  <button onclick="playVideo()">Play</button>
+  <button onclick="pauseVideo()">Pause</button>
+
+
+
+
 
 
 
 
   
-
-  <!-- Buttons to control the video -->
-  <br>
-  <button onclick="playVideo()">Play</button>
-  <button onclick="pauseVideo()">Pause</button>
 
   <script>
     // Get the video element
