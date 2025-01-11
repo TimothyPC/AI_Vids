@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tim's AI Videos</title>
-<br> <br>
+  <title>Tim\'s AI Videos</title>
+<br>
   
 <style>
     body {
