@@ -117,6 +117,10 @@
   
   <!-- Video element -->
   <video id="myVideo_7" width="600" controls>
+
+<audio id="my-audio" src="The_Street_Beat_2.mp3"></audio>
+
+    
     <source src="332834079352217606.mp4" type="video/mp4">
     
     Your browser does not support the video tag.
@@ -154,7 +158,8 @@ const video_5 = document.getElementById('myVideo_5');
 const video_6 = document.getElementById('myVideo_6');
 
 const video_7 = document.getElementById('myVideo_7');
-    
+
+    const audio = document.getElementById("my-audio");
 
     
     
@@ -220,7 +225,7 @@ const video_7 = document.getElementById('myVideo_7');
 
 // Function to play the video
     function playVideo_7() {
-      video_7.play();
+      playBoth();
     }
 
     // Function to pause the video
@@ -229,7 +234,21 @@ const video_7 = document.getElementById('myVideo_7');
     }
     
 
+function playBoth() {
+    
+    const audio = document.getElementById("my-audio");
 
+    // Synchronize audio and video
+    video_7.addEventListener("play", () => audio.play());
+    video_7.addEventListener("pause", () => audio.pause());
+    video_7.addEventListener("timeupdate", () => {
+      if (Math.abs(video.currentTime - audio.currentTime) > 0.1) {
+        audio.currentTime = video_7.currentTime;
+      }
+    });
+
+    video_7.play();
+  }
 
 
 
