@@ -26,6 +26,10 @@
 <body>
   <div id="videoGallery"></div>
 
+<audio id="my-audio" src="audio.mp3"></audio>
+
+
+
   <script>
     // Array of video sources
     const videos = [
@@ -96,7 +100,7 @@
     // Reference to the video gallery container
     const videoGallery = document.getElementById("videoGallery");
 
-    // Dynamically create video elements
+ // Dynamically create video elements
     videos.forEach(video => {
       const container = document.createElement("div");
       container.classList.add("video-container");
@@ -112,6 +116,37 @@
       container.appendChild(title);
       videoGallery.appendChild(container);
     });
+
+
+
+
+// Synchronize audio with the video
+
+   const audio = document.getElementById("my-audio");
+         
+
+video[0].addEventListener("play", () => {
+    audio.play();
+  });
+
+   video[0].addEventListener("pause", () => {
+    audio.pause();
+    
+  });
+
+
+   
+video[0].addEventListener("ended", () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+
+
+
+
+
+
+  
   </script>
 </body>
 </html>
