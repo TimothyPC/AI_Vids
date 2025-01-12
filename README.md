@@ -29,8 +29,80 @@
     // Array of video and optional audio sources
     const media = [
       { videoSrc: "333923407231242244.mp4", audioSrc: "tornado_sound_1.mp3", title: "Tornado" },
-      { videoSrc: "video2.mp4", title: "Video 2 without Audio" },
-      { videoSrc: "video3.mp4", audioSrc: "audio3.mp3", title: "Video 3 with Audio" },
+      { videoSrc: "333735085892505603.mp4", title: "Beyonce and Macaulay Culkin" },
+      { videoSrc: "333628961587437568.mp4", title: "Beyonce and Michael Jackson" },
+
+{ videoSrc: "333608505539035140.mp4", title: "Beyonce Smoking" },
+
+{ videoSrc: "333606574510817289.mp4", title: "Beyonce and Blue Earrings" },
+
+{ videoSrc: "333594070342651905.mp4", title: "Beyonce and Mud" },
+    
+{ videoSrc: "332834079352217606.mp4", audioSrc: "The_Street_Beat_3.mp3", title: "Teddy Bears Rock" },
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+      
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" }, 
+      
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+
+
+{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+      
     ];
 
     // Reference to the video gallery container
