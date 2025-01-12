@@ -22,13 +22,13 @@
     .video-container {
     
      /* Round the edges */
-      border-radius: 12px;
+      border-radius: 6px;
       max-width: 300px;
     }
     video, audio {
     
     /*Round the edges */
-      border-radius: 12px;
+      border-radius: 6px;
       height: auto;
       width: 100%;
     }
