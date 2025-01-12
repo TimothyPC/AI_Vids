@@ -26,11 +26,14 @@
 <body>
   <div id="videoGallery"></div>
 
-<audio id="my-audio" src="audio.mp3"></audio>
 
 
 
   <script>
+
+<audio id="my-audio" src="audio.mp3"></audio>
+
+   
     // Array of video sources
     const videos = [
       { src: "333923407231242244.mp4", title: "Tornado" },
