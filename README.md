@@ -78,30 +78,30 @@
 { videoSrc: "momanddad.mp4", title: "Mom And Dad" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "momanddaughters.mp4", title: "Mom And Daughters" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "momandellis.mp4", title: "Mom And Ellis" },
       
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" }, 
+{ videoSrc: "newyears_celebration.mp4", title: "New Years Celebration" }, 
       
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "olderbrother.mp4", title: "Older Brother" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "oldtimecar.mp4", title: "Old Time Car" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "red_car_on_yellow.mp4", title: "Red Car on Slide" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "sister_reads.mp4", title: "Sister Reads" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "thecross.mp4", title: "The Cross" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "titus.mp4", title: "Soldier at Ease" },
       
     ];
 
