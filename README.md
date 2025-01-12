@@ -20,10 +20,15 @@
       justify-content: center;
     }
     .video-container {
+    
+     /* Round the edges */
+      border-radius: 12px;
       max-width: 300px;
     }
     video, audio {
-
+    
+    /*Round the edges */
+      border-radius: 12px;
       height: auto;
       width: 100%;
     }
