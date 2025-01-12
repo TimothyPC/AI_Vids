@@ -9,7 +9,9 @@
    audio { display: none;}
     
     body {
-      font-family: Arial, sans-serif;
+    background-color: black;
+      color: white; 
+      font-family: Arial, serif;
       margin: 0;
       padding: 0;
       display: flex;
@@ -18,11 +20,29 @@
       justify-content: center;
     }
     .video-container {
+    background-color: #1a1a1a; 
+    /* Dark gray for contrast */
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   
       max-width: 300px;
     }
     video, audio {
+    width: 100%;
+      height: auto;
+      border: 2px solid white; /* Optional: Add a border for contrast */
+      border-radius: 8px;
       width: 100%;
     }
+    
+/* Style titles */
+    p {
+      margin-top: 8px;
+      font-size: 16px;
+      text-align: center;
+    }
+    
   </style>
 </head>
 <body>
