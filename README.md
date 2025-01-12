@@ -125,18 +125,18 @@
    const audio = document.getElementById("my-audio");
          
 
-videos[0].addEventListener("play", () => {
+videos.addEventListener("play", () => {
     audio.play();
   });
 
-   videos[0].addEventListener("pause", () => {
+   videos.addEventListener("pause", () => {
     audio.pause();
     
   });
 
 
    
-videos[0].addEventListener("ended", () => {
+videos.addEventListener("ended", () => {
     audio.pause();
     audio.currentTime = 0;
   });
