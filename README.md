@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Video Gallery with External Audio</title>
   <style>
+
+   audio { display: none;}
+    
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -40,68 +43,68 @@
     
 { videoSrc: "332834079352217606.mp4", audioSrc: "The_Street_Beat_3.mp3", title: "Teddy Bears Rock" },
 
-{ videoSrc: "Children_enjoy_Christmas.mp4", title: "Children Enjoy Christmas" },
+{ videoSrc: "Videos/Children_enjoy_Christmas.mp4", title: "Children Enjoy Christmas" },
 
 
-{ videoSrc: "Friends_all_enjoy.mp4", title: "Friends All Enjoy" },
+{ videoSrc: "Videos/Friends_all_enjoy.mp4", title: "Friends All Enjoy" },
 
 
-{ videoSrc: "Juanita_child.mp4", title: "Aunt And Child" },
+{ videoSrc: "Videos/Juanita_child.mp4", title: "Aunt And Child" },
 
 
-{ videoSrc: "LizandMary.mp4", title: "Liz and Mary" },
+{ videoSrc: "Videos/LizandMary.mp4", title: "Liz and Mary" },
 
 
-{ videoSrc: "Mattie_child.mp4", title: "Aunt Mattie And Child" },
+{ videoSrc: "Videos/Mattie_child.mp4", title: "Aunt Mattie And Child" },
 
 
-{ videoSrc: "MomsHair.mp4", title: "Moms Hair in Wind" },
+{ videoSrc: "Videos/MomsHair.mp4", title: "Moms Hair in Wind" },
 
 
-{ videoSrc: "Superman_Batman_workout.mp4", title: "Superman Batman Workout" },
+{ videoSrc: "Videos/Superman_Batman_workout.mp4", title: "Superman Batman Workout" },
 
 
-{ videoSrc: "brother_saulutes.mp4", title: "Brother Salutes" },
+{ videoSrc: "Videos/brother_saulutes.mp4", title: "Brother Salutes" },
 
 
-{ videoSrc: "car_green_tarp.mp4", title: "Car And Green Tarp" },
+{ videoSrc: "Videos/car_green_tarp.mp4", title: "Car And Green Tarp" },
 
 
-{ videoSrc: "carblowsmoke.mp4", title: "Car Blow Smoke" },
+{ videoSrc: "Videos/carblowsmoke.mp4", title: "Car Blow Smoke" },
 
 
-{ videoSrc: "carverboys.mp4", title: "Carver Boys" },
+{ videoSrc: "Videos/carverboys.mp4", title: "Carver Boys" },
 
-{ videoSrc: "deonsanders.mp4", title: "Deon Sanders" },
-
-
-{ videoSrc: "momanddad.mp4", title: "Mom And Dad" },
+{ videoSrc: "Videos/deonsanders.mp4", title: "Deon Sanders" },
 
 
-{ videoSrc: "momanddaughters.mp4", title: "Mom And Daughters" },
+{ videoSrc: "Videos/momanddad.mp4", title: "Mom And Dad" },
 
 
-{ videoSrc: "momandellis.mp4", title: "Mom And Ellis" },
+{ videoSrc: "Videos/momanddaughters.mp4", title: "Mom And Daughters" },
+
+
+{ videoSrc: "Videos/momandellis.mp4", title: "Mom And Ellis" },
       
-{ videoSrc: "newyears_celebration.mp4", title: "New Years Celebration" }, 
+{ videoSrc: "Videos/newyears_celebration.mp4", title: "New Years Celebration" }, 
       
 
-{ videoSrc: "olderbrother.mp4", title: "Older Brother" },
+{ videoSrc: "Videos/olderbrother.mp4", title: "Older Brother" },
 
 
-{ videoSrc: "oldtimecar.mp4", title: "Old Time Car" },
+{ videoSrc: "Videos/oldtimecar.mp4", title: "Old Time Car" },
 
 
-{ videoSrc: "red_car_on_yellow.mp4", title: "Red Car on Slide" },
+{ videoSrc: "Videos/red_car_on_yellow.mp4", title: "Red Car on Slide" },
 
 
-{ videoSrc: "sister_reads.mp4", title: "Sister Reads" },
+{ videoSrc: "Videos/sister_reads.mp4", title: "Sister Reads" },
 
 
-{ videoSrc: "thecross.mp4", title: "The Cross" },
+{ videoSrc: "Videos/thecross.mp4", title: "The Cross" },
 
 
-{ videoSrc: "titus.mp4", title: "Soldier at Ease" },
+{ videoSrc: "Videos/titus.mp4", title: "Soldier at Ease" },
       
     ];
 
