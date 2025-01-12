@@ -1,9 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Gallery</title>
+  <title>Video Gallery with External Audio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,139 +17,94 @@
     .video-container {
       max-width: 300px;
     }
-    video {
+    video, audio {
       width: 100%;
-      height: auto;
     }
   </style>
 </head>
 <body>
   <div id="videoGallery"></div>
 
-
-
-
   <script>
-
-<audio id="my-audio" src="audio.mp3"></audio>
-
-   
-    // Array of video sources
-    const videos = [
-      { src: "333923407231242244.mp4", title: "Tornado" },
-      { src: "333735085892505603.mp4", title: "Beyonce and Macaulay Culkin" },
-      { src: "333628961587437568.mp4", title: "Beyonce snd Michael Jackson" },
-     
-{ src: "333608505539035140.mp4", title: "Beyonce Smokes" },
-      
-{ src: "333606574510817289.mp4", title: "Beyonce and Blue Earrings" },
-      
-{ src: "333594070342651905.mp4", title: "Beyonce and Mud" },
-      
-{ src: "332834079352217606.mp4", title: "Teddy Bears Rock" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-
-{ src: "video1.mp4", title: "Video 1" },
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-     
-{ src: "video1.mp4", title: "Video 1" },
-
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-      
-     
-{ src: "video1.mp4", title: "Video 1" },
-
-{ src: "video1.mp4", title: "Video 1" },
-
-{ src: "video1.mp4", title: "Video 1" },
-      
-{ src: "video1.mp4", title: "Video 1" },
-
-
-     { src: "video1.mp4", title: "Video 1" },
-      
-     
-
-
-     
+    // Array of video and optional audio sources
+    const media = [
+      { videoSrc: "333923407231242244.mp4", audioSrc: "tornado_sound_1.mp3", title: "Tornado" },
+      { videoSrc: "video2.mp4", title: "Video 2 without Audio" },
+      { videoSrc: "video3.mp4", audioSrc: "audio3.mp3", title: "Video 3 with Audio" },
     ];
 
     // Reference to the video gallery container
     const videoGallery = document.getElementById("videoGallery");
 
- // Dynamically create video elements
-    videos.forEach(video => {
+    // Create video and audio elements dynamically
+    media.forEach(item => {
       const container = document.createElement("div");
       container.classList.add("video-container");
 
       const videoElement = document.createElement("video");
-      videoElement.src = video.src;
+      videoElement.src = item.videoSrc;
       videoElement.controls = true;
 
       const title = document.createElement("p");
-      title.textContent = video.title;
+      title.textContent = item.title;
 
       container.appendChild(videoElement);
       container.appendChild(title);
+
+      // If there's an associated audio file, create an audio element
+      if (item.audioSrc) {
+        const audioElement = document.createElement("audio");
+        audioElement.src = item.audioSrc;
+
+        // Synchronize audio with the video
+        videoElement.addEventListener("play", () => {
+          audioElement.play();
+        });
+
+        videoElement.addEventListener("pause", () => {
+          audioElement.pause();
+        });
+
+       videoElement.addEventListener("ended", () => {
+    audioElement.pause();
+    audioElement.currentTime = 0;
+  });
+        
+
+        audioElement.controls = true; // Optional: Add controls for the audio
+        container.appendChild(audioElement);
+      }
+
       videoGallery.appendChild(container);
     });
+  </script>
+  
+</body>
+</html>
+
+
+      
+     
 
 
 
 
-// Synchronize audio with the video
 
-   const audio = document.getElementById("my-audio");
-         
 
-videos.addEventListener("play", () => {
-    audio.play();
-  });
 
-   videos.addEventListener("pause", () => {
-    audio.pause();
-    
-  });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    
-videos.addEventListener("ended", () => {
-    audio.pause();
-    audio.currentTime = 0;
-  });
 
-
-
-
-
-
-  
-  </script>
-</body>
-</html>
