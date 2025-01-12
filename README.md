@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -40,42 +40,42 @@
     
 { videoSrc: "332834079352217606.mp4", audioSrc: "The_Street_Beat_3.mp3", title: "Teddy Bears Rock" },
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "Children_enjoy_Christmas.mp4", title: "Children Enjoy Christmas" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "Friends_all_enjoy.mp4", title: "Friends All Enjoy" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "Juanita_child.mp4", title: "Aunt And Child" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "LizandMary.mp4", title: "Liz and Mary" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "Mattie_child.mp4", title: "Aunt Mattie And Child" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "MomsHair.mp4", title: "Moms Hair in Wind" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "Superman_Batman_workout.mp4", title: "Superman Batman Workout" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "brother_saulutes.mp4", title: "Brother Salutes" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "car_green_tarp.mp4", title: "Car And Green Tarp" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "carblowsmoke.mp4", title: "Car Blow Smoke" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "carverboys.mp4", title: "Carver Boys" },
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "deonsanders.mp4", title: "Deon Sanders" },
 
 
-{ videoSrc: "video3.mp4", title: "Video 3 with Audio" },
+{ videoSrc: "momanddad.mp4", title: "Mom And Dad" },
 
 
 { videoSrc: "video3.mp4", title: "Video 3 with Audio" },
