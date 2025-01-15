@@ -48,6 +48,10 @@
   <script>
     // Array of video and optional audio sources
     const media = [
+
+      { videoSrc: "angel_on_bridge.mp4", title: "Angel Guides Kids" },
+
+      
       { videoSrc: "333923407231242244.mp4", audioSrc: "tornado_sound_1.mp3", title: "Tornado" },
       { videoSrc: "333735085892505603.mp4", title: "Beyonce and Macaulay Culkin" },
       { videoSrc: "333628961587437568.mp4", title: "Beyonce and Michael Jackson" },
