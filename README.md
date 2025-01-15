@@ -49,7 +49,7 @@
     // Array of video and optional audio sources
     const media = [
 
-      { videoSrc: "angel_on_bridge.mp4", title: "Angel Guides Kids" },
+      { videoSrc: "Videos/angel_on_bridge.mp4", title: "Angel Guides Kids" },
 
       
       { videoSrc: "333923407231242244.mp4", audioSrc: "tornado_sound_1.mp3", title: "Tornado" },
