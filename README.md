@@ -49,6 +49,7 @@
 
   <button id="incrementButton">Like 👍</button>
 <p>Current Likes: <span id="counterValue">Loading...</span></p>
+<br>
 
   <div id="videoGallery"></div>
 
@@ -157,18 +158,8 @@ document.getElementById('incrementButton').addEventListener('click', incrementCo
 
 
 
-
-
-
-
-
-
-
-
-
-<br>
-
     
+
     // Array of video and optional audio sources
     const media = [
 
