@@ -58,9 +58,9 @@
   <script>
 
 
-const GITHUB_TOKEN_0 = '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axtyu'; // 
+let GITHUB_TOKEN_0 = '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axtyu'; // 
     
-    let GITHUB_TOKEN = GITHUB_TOKEN_0.replace("axtyu", "");
+    const GITHUB_TOKEN = GITHUB_TOKEN_0.replace("axtyu", "");
 
     
     
