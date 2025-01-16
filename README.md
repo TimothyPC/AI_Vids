@@ -58,6 +58,7 @@
 
   <script>
 
+  var done = '';
 
 let GITHUB_TOKEN_0 = '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axtyu';  
     
@@ -141,8 +142,11 @@ async function updateCounter(newCounter, sha) {
 // Increment the counter
 async function incrementCounter() {
     const { counter, sha } = await getCounter();
+    if (done == '') {
+      done = 'done';
     const newCounter = counter + 1;
-    await updateCounter(newCounter, sha);
+    }
+  await updateCounter(newCounter, sha);
     document.getElementById('counterValue').textContent = newCounter;
 }
 
