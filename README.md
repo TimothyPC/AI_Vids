@@ -58,7 +58,7 @@
   <script>
 
 
-const GITHUB_TOKEN = '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'; // Replace with your token
+const GITHUB_TOKEN = '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'; // Replace with your token
 const REPO_OWNER = 'TimothyPC'; // Replace with your GitHub username
 const REPO_NAME = 'Tims_AI_Videos'; // Replace with your repository name
 const FILE_PATH = 'counter.json'; // File path in the repository
