@@ -56,6 +56,80 @@
 
 
   <script>
+
+
+const GITHUB_TOKEN = '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'; // Replace with your token
+const REPO_OWNER = 'TimothyPC'; // Replace with your GitHub username
+const REPO_NAME = 'Tims_AI_Videos'; // Replace with your repository name
+const FILE_PATH = 'counter.json'; // File path in the repository
+
+// Fetch the file content from GitHub
+async function getCounter() {
+    const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+        headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+        },
+    });
+    if (!response.ok) {
+        // File might not exist yet, return 0 as default
+        return { counter: 0, sha: null };
+    }
+    const data = await response.json();
+    const content = JSON.parse(atob(data.content));
+    return { counter: content.counter, sha: data.sha };
+}
+
+// Update the counter file on GitHub
+async function updateCounter(newCounter, sha) {
+    const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+        method: 'PUT',
+        headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            message: 'Update counter',
+            content: btoa(JSON.stringify({ counter: newCounter })),
+            sha: sha, // Required to update an existing file
+        }),
+    });
+    if (!response.ok) {
+        throw new Error('Failed to update file');
+    }
+}
+
+// Increment the counter
+async function incrementCounter() {
+    const { counter, sha } = await getCounter();
+    const newCounter = counter + 1;
+    await updateCounter(newCounter, sha);
+    document.getElementById('counterValue').textContent = newCounter;
+}
+
+// Initialize the page
+(async function () {
+    const { counter } = await getCounter();
+    document.getElementById('counterValue').textContent = counter;
+})();
+
+// Attach the button click event
+document.getElementById('incrementButton').addEventListener('click', incrementCounter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     // Array of video and optional audio sources
     const media = [
 
