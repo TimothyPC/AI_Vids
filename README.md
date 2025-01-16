@@ -45,10 +45,11 @@
 <body>
   <div id="videoGallery"></div>
 
+/*
 <button id="incrementButton">Increment</button>
 <p>Current Value: <span id="counterValue">Loading...</span></p>
 
-const GITHUB_TOKEN = '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'; // Replace with your token
+const GITHUB_TOKEN = 'abc'; // Replace with your token
 const REPO_OWNER = 'TimothyPC'; // Replace with your GitHub username
 const REPO_NAME = 'Tims_AI_Videos'; // Replace with your repository name
 const FILE_PATH = 'counter.json'; // File path in the repository
@@ -105,7 +106,7 @@ async function incrementCounter() {
 // Attach the button click event
 document.getElementById('incrementButton').addEventListener('click', incrementCounter);
 
-
+*/
 
 
 
