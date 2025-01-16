@@ -47,8 +47,8 @@
 </head>
 <body>
 
-  <button id="incrementButton">Increment</button>
-<p>Current Value: <span id="counterValue">Loading...</span></p>
+  <button id="incrementButton">Like 👍</button>
+<p>Current Likes: <span id="counterValue">Loading...</span></p>
 
   <div id="videoGallery"></div>
 
