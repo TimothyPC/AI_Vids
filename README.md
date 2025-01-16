@@ -58,13 +58,14 @@
   <script>
 
 
-let GITHUB_TOKEN_0 = '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axtyu'; // 
+let GITHUB_TOKEN_0 = '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axtyu';  
     
-    let GITHUB_TOKEN = GITHUB_TOKEN_0.replace("axtyu", "");
+    let GITHUB_TOKEN_1 = GITHUB_TOKEN_0.replace("axtyu", "");
 
+    const GITHUB_TOKEN = GITHUB_TOKEN_1;
     
     
-    Replace with your token
+   // Replace with your token
 const REPO_OWNER = 'TimothyPC'; // Replace with your GitHub username
 const REPO_NAME = 'Tims_AI_Videos'; // Replace with your repository name
 const FILE_PATH = 'counter.json'; // File path in the repository
