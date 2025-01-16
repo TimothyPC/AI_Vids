@@ -142,9 +142,9 @@ async function updateCounter(newCounter, sha) {
 // Increment the counter
 async function incrementCounter() {
     const { counter, sha } = await getCounter();
-    if (done === '') {
-      done = 'done';
+    if (done == null) {
     const newCounter = counter + 1;
+    done = 'done';
     }
   await updateCounter(newCounter, sha);
     document.getElementById('counterValue').textContent = newCounter;
