@@ -61,8 +61,40 @@
 const GITHUB_TOKEN = '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'; // Replace with your token
 const REPO_OWNER = 'TimothyPC'; // Replace with your GitHub username
 const REPO_NAME = 'Tims_AI_Videos'; // Replace with your repository name
-const FILE_PATH = 'Videos/counter.json'; // File path in the repository
+const FILE_PATH = 'counter.json'; // File path in the repository
 
+const INITIAL_CONTENT = { counter: 0 }; // Initial content for the file
+
+
+// Create counter.json file
+    
+async function createFile() {
+    const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+        method: 'PUT',
+        headers: {
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            message: 'Create counter.json file',
+            content: btoa(JSON.stringify(INITIAL_CONTENT)), // Base64 encode content
+        }),
+    });
+
+    if (!response.ok) {
+        throw new Error('Failed to create file');
+    }
+
+    const data = await response.json();
+    console.log('File created:', data);
+}
+
+createFile().catch(error => {
+    console.error(error);
+});
+
+
+    
 // Fetch the file content from GitHub
 async function getCounter() {
     const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
