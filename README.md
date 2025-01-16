@@ -32,6 +32,13 @@
       height: auto;
       width: 100%;
     }
+
+    buttons {
+      border-radius: 6px;
+      height: auto;
+      width: auto;
+    }
+    
     
 /* Style titles */
     p {
@@ -47,7 +54,8 @@
 </head>
 <body>
 
-  <button id="incrementButton">Like 👍</button>
+  <br>
+  <button id="incrementButton">Like</button>
 <p>Current Likes: <span id="counterValue">Loading...</span></p>
 <br>
 
@@ -59,6 +67,7 @@
   <script>
 
   let done = '';
+  let like_btn = 'Liked 👍'
 
 let GITHUB_TOKEN_0 = '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axtyu';  
     
@@ -150,6 +159,9 @@ async function incrementCounter() {
   
     if (done === '') {
         done = 'done';
+
+      document.getElementById('incrementButton').textContent = like_btn;
+        
     }
 
     
