@@ -192,7 +192,9 @@ document.getElementById('incrementButton').addEventListener('click', incrementCo
 { videoSrc: "Videos/corvette_rainy_road.mp4", audioSrc: "Videos/A_corvette_driving_d.mp3", title: "Corvette Rainy Evening" },
       
 
-      { videoSrc: "Videos/angel_on_bridge.mp4", title: "Angel Guides Kids" },
+      { videoSrc: "Videos/angel_on_bridge.mp4",
+       audioSrc: "Videos/Water_running_under.mp3", 
+    title: "Angel Guides Kids" },
 
       
       { videoSrc: "333923407231242244.mp4", audioSrc: "tornado_sound_1.mp3", title: "Tornado" },
