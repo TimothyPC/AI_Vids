@@ -186,7 +186,7 @@ document.getElementById('incrementButton').addEventListener('click', incrementCo
     // Array of video and optional audio sources
     const media = [
 
-{ videoSrc: "Videos/corvette_fall_road.mp4", audioSrc: "Videos/A_corvette_slowly_dr.mp3", title: "Corvette Fall Evening" },
+{ videoSrc: "Videos/corvette_fall_road_new.mp4", audioSrc: "Videos/A_corvette_slowly_dr.mp3", title: "Corvette Fall Evening" },
 
 
 { videoSrc: "Videos/corvette_rainy_road.mp4", audioSrc: "Videos/A_corvette_driving_d.mp3", title: "Corvette Rainy Evening" },
