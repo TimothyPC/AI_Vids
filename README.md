@@ -186,6 +186,10 @@ document.getElementById('incrementButton').addEventListener('click', incrementCo
     // Array of video and optional audio sources
     const media = [
 
+      { videoSrc: "Videos_2/mona_lisa_grind.mp4", title: "Mona Lisa" },
+
+      { videoSrc: "Videos_2/blue_ocean_tides.mp4", audioSrc: "Videos_2/The_ocean_tides_cras.mp3", title: "Ocean Evening" },
+
 { videoSrc: "Videos/corvette_fall_road_new.mp4", audioSrc: "Videos/A_corvette_slowly_dr.mp3", title: "Corvette Fall Evening" },
 
 
